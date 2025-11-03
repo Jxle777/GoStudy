@@ -18,4 +18,6 @@ func main() {
 	println(d + int32(e))
 	//math.Ceil()//取最近整数
 	String()
+	Byte()
+	Bool()
 }
