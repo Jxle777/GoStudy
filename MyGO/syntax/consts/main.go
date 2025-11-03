@@ -16,6 +16,15 @@ const (
 )
 
 const (
+	x = iota << 1
+	//1左移
+	y
+	//2左移
+	z
+	//3左移
+)
+
+const (
 	DayA = iota*12 + 13 //相当于0*12+13
 )
 
