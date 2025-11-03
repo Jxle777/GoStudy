@@ -5,6 +5,7 @@ var internal = "包内变量，私有变量"
 var (
 	first  string = "1"
 	second string = "2"
+	aa            = "hello"
 )
 
 func main() {
@@ -25,4 +26,7 @@ func main() {
 
 	f := 123
 	println(f)
+
+	var aa int = 123 //赋值覆盖，最好避免这样写
+	println(aa)
 }
