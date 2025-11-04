@@ -12,6 +12,21 @@ func main() {
 	//println(name2)
 	//
 	//Func6("hello", "go") //传参数
-	Recursive(10)
-	UseFunctional4()
+	//Recursive(10)//递归调用
+	//UseFunctional4()
+	//Functional8()
+	//fn := Closure("Daming")
+	//fn 其实已经从 Closure 里面返回了
+	//但是我 fn 还要用到“大明”
+	//println(fn())
+	//Defer()
+	//DeferClosure()
+	//DeferClosureV1()
+	//println(DeferReturn())
+	//println(DeferReturnV1())
+	DeferClosureLoopV1()
+	println("\n")
+	DeferClosureLoopV2()
+	println("\n")
+	DeferClosureLoopV3()
 }

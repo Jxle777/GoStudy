@@ -23,3 +23,18 @@ func Functional6() {
 
 	fn()
 }
+
+func Functional8() {
+	//新定义了一个方法赋值给了 fn
+	fn := func() string {
+		return "Hello"
+	}() //匿名方法立刻发起调用
+	println(fn)
+}
+
+// 它的意思是我返回一个，返回string的无参数方法
+func Functional7() func() string {
+	return func() string {
+		return "Hello"
+	}
+}
