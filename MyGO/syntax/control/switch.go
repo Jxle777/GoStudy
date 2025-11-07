@@ -12,6 +12,13 @@ func Switch(status int) {
 	println("都没有执行直接执行这句")
 }
 
+func SwitchUser(u User) {
+	switch u {
+	case User{}:
+	case User{name: "大明"}:
+	}
+}
+
 func SwitchBool(age int) {
 	switch { //不带为bool类型的值
 	case age >= 18:

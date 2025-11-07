@@ -19,3 +19,38 @@ func Array() {
 	//a3 = append(a3,12)
 	println(a3[2])
 }
+
+func UserSumInt64() {
+	s1 := []int{1, 2, 3}
+	res := SumInt64(s1)
+	println(res)
+}
+
+func SumInt(vals[int]) int {
+	var res int
+	for _, val := range vals {
+		res += val
+	}
+	return res
+}
+
+func SumInt64(vals []int64) int64 {
+	var res int64
+	for _, val := range vals {
+		res += val
+	}
+	return res
+}
+
+func UserKey() {
+	m := map[string]int{
+		"key1": 123,
+	}
+	keys := Keys(m)
+	println(keys)
+
+} //map 键和值的类型一定要对的上
+
+func Keys(m map[string]any) []string {
+	return []string{"hello"}
+}
